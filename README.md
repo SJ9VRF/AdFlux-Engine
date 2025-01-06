@@ -10,8 +10,8 @@ Built with modularity and scalability in mind, AdFlux Engine combines the latest
 
 ## Features
 
-Multi-Model Support: Use the latest SOTA models, such as LAVA, Decision Transformer, and Gato, or easily add new architectures.
-Reinforcement Learning with RLHF: Train models to align with business goals using offline reinforcement learning.
-Sequence Modeling: Accurately predict user behavior using advanced transformer-based models like TimeSformer.
-Customizable Framework: Modular structure for easy customization and expansion.
-Simulations & Analytics: Run simulations to test ad strategies and analyze results.
+- **Multi-Model Support**: Use the latest SOTA models, such as LAVA, Decision Transformer, and Gato, or easily add new architectures.
+- **Reinforcement Learning with RLHF**: Train models to align with business goals using offline reinforcement learning.
+- **Sequence Modeling**: Accurately predict user behavior using advanced transformer-based models like TimeSformer.
+- **Customizable Framework**: Modular structure for easy customization and expansion.
+- **Simulations & Analytics**: Run simulations to test ad strategies and analyze results.
