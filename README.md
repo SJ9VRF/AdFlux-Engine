@@ -95,8 +95,24 @@ The synthetic data generator produces sequences representing user behavior or ad
    ```
 2. Ensure the directory structure matches the above layout.
 3. Prepare data:
-- Place real-world or synthetic datasets in the data/ directory.
-- Use the DataProcessor class to preprocess and split the data.
+- **Place real-world or synthetic datasets in the data/ directory.
+- **Use the DataProcessor class to preprocess and split the data.
+
+
+### Switch Models Configuration Update
+
+To switch to a different model, update the `config.py` file with the new model configuration.
+```python
+MODEL_CONFIG = {
+    'current_model': 'decision_transformer'  # Change to 'lava', 'gato', etc.
+}
+```
+
+- Example Models:
+'lava'
+'gato'
+'decision_transformer'
+
 
   ## Usage
 
