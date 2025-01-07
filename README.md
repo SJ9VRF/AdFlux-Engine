@@ -45,8 +45,6 @@ MODEL_CONFIG = {
     'current_model': 'decision_transformer'  # Change to 'lava', 'gato', etc.
 }
 
-## Models Supported
-
 ## Supported Models
 
 ### Machine Learning Models
@@ -64,6 +62,18 @@ MODEL_CONFIG = {
 - **Diffusion Models**: NLP-based text generation for ad interactions.
 - **CLIP**: Multimodal learning for text-image alignment in advertisements.
 - **GTN (Generative Teaching Networks)**: Synthetic data generation for user interaction simulations.
+
+
+## Synthetic Data Creation
+
+The **AdFlux Engine** includes utilities to generate synthetic datasets for simulating ad interaction environments. This is particularly useful when real-world data is unavailable or limited.
+
+### `SyntheticAdDataset` Class
+
+The synthetic data generator produces sequences representing user behavior or ad interactions. These sequences can be used for training and testing models for tasks like:
+
+- Predicting user clicks or views.
+- Simulating sequential ad interactions in RL environments.
 
 
 ## Examples
