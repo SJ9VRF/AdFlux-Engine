@@ -4,7 +4,7 @@
 
 
 ## Overview
-AdFlux Engine is a Advertisement Simulator designed to predict and simulate user behavior (clicks and views) based on historical interaction data. Leveraging cutting-edge architectures like LAVA, Decision Transformers, Gato, and MuZero, AdFlux Engine helps optimize ad placements, enhance user engagement, and maximize conversion rates.
+AdFlux Engine is a Foundation model for Advertisement Simulator designed to predict and simulate user behavior (clicks and views) based on historical interaction data. Leveraging cutting-edge architectures like LAVA, Decision Transformers, Gato, and MuZero, AdFlux Engine helps optimize ad placements, enhance user engagement, and maximize conversion rates.
 
 Built with modularity and scalability in mind, AdFlux Engine combines the latest advancements in NLP, reinforcement learning, and sequence modeling, including RLHF (Reinforcement Learning from Human Feedback).
 
