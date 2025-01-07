@@ -100,16 +100,29 @@ The synthetic data generator produces sequences representing user behavior or ad
 
   ## Usage
 
-Run the Main Script
+### Run the Main Script
+
 Train and evaluate a model on ad interaction data:
 
+```bash
 python main.py
-Simulate Ad Interactions
-Use RL models to predict user behavior in an ad environment:
+```
 
+
+### Simulate Ad Interactions
+
+Use RL models to predict user behavior in an ad environment:
+```bash
 python rl/ads_seq_prediction_rl.py
-Generate Synthetic Data
+```
+
+### Generate Synthetic Data
+
 Create synthetic ad interaction datasets using the SyntheticAdDataset class.
+```bash
+This markdown version properly formats the code blocks and headings for your `.md` file.
+```
+
 
 ## Test Models
 
