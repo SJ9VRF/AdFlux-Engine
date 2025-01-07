@@ -76,16 +76,50 @@ The synthetic data generator produces sequences representing user behavior or ad
 - Simulating sequential ad interactions in RL environments.
 
 
-## Examples
+## Getting Started
 
-Running a simulation with the Decision Transformer:
+### Prerequisites
+- **Python**: Version 3.8 or higher.
+- **GPU**: A CUDA-enabled GPU is recommended for training large models.
+- **Dependencies**: Install the required libraries:
+  ```bash
+  pip install -r requirements.txt
+  ```
 
+  ## Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/adflux-engine.git
+   cd adflux-engine
+   ```
+2. Ensure the directory structure matches the above layout.
+3. Prepare data:
+- Place real-world or synthetic datasets in the data/ directory.
+- Use the DataProcessor class to preprocess and split the data.
+
+  ## Usage
+
+Run the Main Script
+Train and evaluate a model on ad interaction data:
+
+python main.py
+Simulate Ad Interactions
+Use RL models to predict user behavior in an ad environment:
+
+python rl/ads_seq_prediction_rl.py
+Generate Synthetic Data
+Create synthetic ad interaction datasets using the SyntheticAdDataset class.
+
+  ## Test Models
+Run unit tests for models:
+
+python tests/test_models.py
+Running a Simulation with the Decision Transformer
 python main.py --model decision_transformer --data data/user_data.csv
-Training with LAVA:
-
+Training with LAVA
 python main.py --model lava --train --data data/user_data.csv
-
-## Future Work
+Future Enhancements
 
 Incorporate AutoML: Automatically select the best model and hyperparameters for your dataset.
 Expand Reward Functions: Introduce more sophisticated reward mechanisms for RLHF.
