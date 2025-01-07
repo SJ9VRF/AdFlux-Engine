@@ -95,8 +95,8 @@ The synthetic data generator produces sequences representing user behavior or ad
    ```
 2. Ensure the directory structure matches the above layout.
 3. Prepare data:
-- **Place real-world or synthetic datasets in the data/ directory.
-- **Use the DataProcessor class to preprocess and split the data.
+- **Place real-world or synthetic datasets** in the `data/` directory.
+- **Use the `DataProcessor` class** to preprocess and split the data.
 
 
 ### Switch Models Configuration Update
