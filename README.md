@@ -99,7 +99,7 @@ The synthetic data generator produces sequences representing user behavior or ad
 - **Use the `DataProcessor` class** to preprocess and split the data.
 
 
-### Switch Models Configuration Update
+### Switch Models
 
 To switch to a different model, update the `config.py` file with the new model configuration.
 ```python
