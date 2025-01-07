@@ -4,9 +4,12 @@ Configuration settings for the AdFlux Engine.
 
 CONFIG = {
     "data": {
-        "data_dir": "./data",
-        "file_format": "csv",
-        "test_size": 0.2
+        "synthetic": {
+            "num_sequences": 1000,
+            "seq_length": 10,
+            "vocab_size": 20,
+            "batch_size": 32
+        }
     },
     "model": {
         "type": "cnn",  # Options: "cnn", "lstm", "gru", etc.
