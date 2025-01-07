@@ -20,20 +20,30 @@ Built with modularity and scalability in mind, AdFlux Engine combines the latest
 ## Supported Models
 
 ### Machine Learning Models
-- **BERT**: Sequence classification for ad interaction prediction.
-- **XLNet**: Contextual sequence modeling for sequential user behavior.
-- **LSTM, GRU**: Time-series prediction for sequential ad clicks and views.
-- **CNN**: Pattern detection in user interaction sequences.
+- **BERT**: Captures bidirectional context in ad interactions, enabling accurate predictions of user engagement or intent. Encodes human feedback as contextual input, improving reward modeling for better user-aligned policies.
+- **XLNet**: Leverages permutation-based training to better understand the order of ad interactions. Provides enhanced sequence modeling for feedback-driven reward optimizations.
+- **LSTM, GRU**: Handles long-term dependencies in sequential ad clicks and views, making it suitable for time-series analysis. Captures trends in human feedback over time for policy refinement.
+- **CNN**: Identifies patterns in user interaction sequences, such as spikes in engagement or drop-offs. Quickly learns localized features in feedback data, speeding up alignment with human preferences.
 
-### Reinforcement Learning
-- **LAVA**: Optimized for offline RL tasks with latent action spaces.
-- **Decision Transformer**: Sequence modeling for decision-making processes.
-- **MuZero**: Dynamic modeling for sequential decision-making in unknown environments.
+### Reinforcement Learning Models
+- **LAVA**: Efficiently models offline ad interactions to recommend optimal ad placements without requiring live interaction data. Learns compact latent representations, allowing better integration of complex human feedback.
+- **Decision Transformer**: Models sequential decision-making as a sequence generation task, optimizing ad sequences for maximum user engagement. Integrates feedback-driven goals into sequence generation, ensuring alignment with user expectations.
+- **MuZero**: Models dynamic ad environments, accounting for unseen user behavior patterns and optimizing sequences adaptively. Combines planning and learned policies to improve long-term user satisfaction through human-aligned actions.
 
 ### Generative and Multimodal Models
-- **Diffusion Models**: NLP-based text generation for ad interactions.
-- **CLIP**: Multimodal learning for text-image alignment in advertisements.
-- **GTN (Generative Teaching Networks)**: Synthetic data generation for user interaction simulations.
+- **Diffusion Models**: Generates realistic ad interaction sequences, useful for training models in data-scarce scenarios. Generates synthetic feedback data to augment RL training for better policy alignment.
+- **CLIP (Multimodal Learning)**: Aligns text and image features to create visually cohesive and contextually relevant ad content. Incorporates multimodal feedback, improving alignment with user preferences across different media formats.
+- **GTN (Generative Teaching Networks)**: Produces synthetic training data tailored to model requirements, reducing dependency on real-world data. Generates high-quality, diverse feedback data for efficient policy refinement.
+
+### Efficient Transformers
+- **Linformer**: Scales transformer models to handle long ad sequences with reduced computational overhead. Enables real-time feedback modeling by handling large-scale interaction data efficiently.
+- **Performer**: Provides linear attention for fast and accurate modeling of ad interactions over time. Processes human feedback at scale with low latency, improving response times in adaptive systems.
+- **Reformer**: Reduces memory usage while handling long ad interaction sequences, making it suitable for resource-constrained environments. Handles detailed feedback logs efficiently, enabling scalable policy updates.
+
+### Specialized Models
+- **Capsule Networks**: Captures hierarchical relationships in ad interactions, such as grouping ads by category or campaign. Models structured human feedback, improving reward function accuracy.
+- **Meta-Learning Models**: Adapts quickly to new ad campaigns or user behaviors with minimal retraining. Learns how to generalize from limited feedback data, accelerating alignment processes.
+
 
 
 ## Synthetic Data Creation
