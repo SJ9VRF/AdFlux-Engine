@@ -145,9 +145,9 @@ python main.py --model lava --train --data data/user_data.csv
 - **Expand Reward Functions**: Introduce more sophisticated reward mechanisms for RLHF.
 - **Add Visualization Tools**: Provide dashboards to analyze predictions and user behaviors.
 
+
 ## More Advanced Models
 - **[AdFlux PersonaTaste Engine](https://github.com/SJ9VRF/AdFlux-PersonaTaste-Engine)**: Enhancing AdFlux by incorporating persona-based tastes, utilizing user behavior history such as shopping data or web clicks.
 - **[AdFlux Agentic Engine](https://github.com/SJ9VRF/AdFlux-Agentic-Engine)**: An agentic engine designed to address the complexities of a sophisticated ad system.
-
 
 
