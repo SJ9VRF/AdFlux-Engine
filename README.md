@@ -111,16 +111,27 @@ python rl/ads_seq_prediction_rl.py
 Generate Synthetic Data
 Create synthetic ad interaction datasets using the SyntheticAdDataset class.
 
-  ## Test Models
+## Test Models
+
 Run unit tests for models:
 
+```bash
 python tests/test_models.py
-Running a Simulation with the Decision Transformer
-python main.py --model decision_transformer --data data/user_data.csv
-Training with LAVA
-python main.py --model lava --train --data data/user_data.csv
-Future Enhancements
+```
 
-Incorporate AutoML: Automatically select the best model and hyperparameters for your dataset.
-Expand Reward Functions: Introduce more sophisticated reward mechanisms for RLHF.
-Add Visualization Tools: Provide dashboards to analyze predictions and user behaviors.
+Running a Simulation with the Decision Transformer
+```bash
+python main.py --model decision_transformer --data data/user_data.csv
+```
+Training with LAVA
+```bash
+python main.py --model lava --train --data data/user_data.csv
+```
+
+## Future Enhancements
+
+- **Incorporate AutoML**: Automatically select the best model and hyperparameters for your dataset.
+- **Expand Reward Functions**: Introduce more sophisticated reward mechanisms for RLHF.
+- **Add Visualization Tools**: Provide dashboards to analyze predictions and user behaviors.
+
+
