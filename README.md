@@ -47,19 +47,23 @@ MODEL_CONFIG = {
 
 ## Models Supported
 
-Machine Learning Models:
-BERT: Sequence classification for ad interaction prediction.
-XLNet: Contextual sequence modeling for sequential user behavior.
-LSTM, GRU: Time-series prediction for sequential ad clicks and views.
-CNN: Pattern detection in user interaction sequences.
-Reinforcement Learning:
-LAVA: Optimized for offline RL tasks with latent action spaces.
-Decision Transformer: Sequence modeling for decision-making processes.
-MuZero: Dynamic modeling for sequential decision-making in unknown environments.
-Generative and Multimodal Models:
-Diffusion Models: NLP-based text generation for ad interactions.
-CLIP: Multimodal learning for text-image alignment in advertisements.
-GTN: Synthetic data generation for user interaction simulations.
+## Supported Models
+
+### Machine Learning Models
+- **BERT**: Sequence classification for ad interaction prediction.
+- **XLNet**: Contextual sequence modeling for sequential user behavior.
+- **LSTM, GRU**: Time-series prediction for sequential ad clicks and views.
+- **CNN**: Pattern detection in user interaction sequences.
+
+### Reinforcement Learning
+- **LAVA**: Optimized for offline RL tasks with latent action spaces.
+- **Decision Transformer**: Sequence modeling for decision-making processes.
+- **MuZero**: Dynamic modeling for sequential decision-making in unknown environments.
+
+### Generative and Multimodal Models
+- **Diffusion Models**: NLP-based text generation for ad interactions.
+- **CLIP**: Multimodal learning for text-image alignment in advertisements.
+- **GTN (Generative Teaching Networks)**: Synthetic data generation for user interaction simulations.
 
 
 ## Examples
