@@ -47,21 +47,20 @@ MODEL_CONFIG = {
 
 ## Models Supported
 
-1. LAVA (Latent Action Spaces for Offline RL)
-Optimizes for offline reinforcement learning tasks using latent action representations.
-Use Case: High-performance advertisement strategies from historical data.
-2. Decision Transformer
-Combines transformer-based sequence modeling with reinforcement learning.
-Use Case: Predicts optimal user action sequences.
-3. Gato
-A generalist model capable of handling text, images, and control tasks.
-Use Case: Cross-domain user interaction modeling.
-4. MuZero
-Learns a model of the environment for dynamic decision-making.
-Use Case: Simulating complex, long-term user behavior.
-5. TimeSformer
-A transformer model specialized for time-series forecasting.
-Use Case: Predicting user behavior trends over time.
+Machine Learning Models:
+BERT: Sequence classification for ad interaction prediction.
+XLNet: Contextual sequence modeling for sequential user behavior.
+LSTM, GRU: Time-series prediction for sequential ad clicks and views.
+CNN: Pattern detection in user interaction sequences.
+Reinforcement Learning:
+LAVA: Optimized for offline RL tasks with latent action spaces.
+Decision Transformer: Sequence modeling for decision-making processes.
+MuZero: Dynamic modeling for sequential decision-making in unknown environments.
+Generative and Multimodal Models:
+Diffusion Models: NLP-based text generation for ad interactions.
+CLIP: Multimodal learning for text-image alignment in advertisements.
+GTN: Synthetic data generation for user interaction simulations.
+
 
 ## Examples
 
