@@ -16,34 +16,6 @@ Built with modularity and scalability in mind, AdFlux Engine combines the latest
 - **Customizable Framework**: Modular structure for easy customization and expansion.
 - **Simulations & Analytics**: Run simulations to test ad strategies and analyze results.
 
-## Getting Started
-
-Prerequisites
-Python 3.8 or higher
-Recommended: CUDA-enabled GPU for training large models
-Install Python dependencies:
-pip install -r requirements.txt
-Installation
-Clone this repository:
-git clone https://github.com/your-username/ad-simulator.git
-cd ad-simulator
-Set up a Python virtual environment:
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install dependencies:
-pip install -r requirements.txt
-Usage
-Prepare Data: Add your user interaction data in the data/ directory.
-Supported formats: .csv, .json
-Use data/data_processor.py to preprocess the data.
-Run Simulations:
-Use main.py to start a simulation:
-python main.py
-Switch Models:
-Update the configuration in config.py to use a different model:
-MODEL_CONFIG = {
-    'current_model': 'decision_transformer'  # Change to 'lava', 'gato', etc.
-}
 
 ## Supported Models
 
